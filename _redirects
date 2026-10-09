@@ -1,0 +1,8 @@
+# Secondary domain -> main domain (permanent)
+https://yourfunctionalhealthbc.com/*      https://functionalhealthbc.com/:splat  301!
+https://www.yourfunctionalhealthbc.com/*  https://functionalhealthbc.com/:splat  301!
+http://yourfunctionalhealthbc.com/*       https://functionalhealthbc.com/:splat  301!
+http://www.yourfunctionalhealthbc.com/*   https://functionalhealthbc.com/:splat  301!
+
+# www on the main domain -> bare domain
+https://www.functionalhealthbc.com/*      https://functionalhealthbc.com/:splat  301!
